@@ -28,3 +28,4 @@ if (container.style.backgroundColor === "lightblue") {
     alert(`Hello ${users[0].textContent} and ${users[1].textContent}`);
   }
 }
+
