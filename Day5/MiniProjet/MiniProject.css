@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+#box {
+    width: 200px;
+    background-color: lightgray;
+    padding: 2px;
+    display: flex;
+    gap : 1px;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.container {
+    display : flex;
+    height: 100vh;
+}
+.button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 9px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 30px;
+    cursor: pointer;
+    margin-bottom: 9px;
+}
+#colors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    width: 100%;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.color {
+    width: 100;
+    height: 100;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+#Squares {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex: 1;
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,20px);
+    background-color: lightgrey;
+    border: none;
+    gap : 1px;
+    padding: 2px;
+    height: 100vh;
+    grid-auto-rows: 32px;
+}
+.square {
+    width: 20px;
+    height: 32px;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
